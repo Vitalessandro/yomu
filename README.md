@@ -1,3 +1,19 @@
+## Description
+
+A mobile-ready Japanese learning app focused on kanji and JLPT vocabulary.
+
+The app combines kanji data (readings, meanings, JLPT level) with related vocabulary, creating a structured learning experience where each kanji is linked to real words.
+
+Features:
+- Kanji by JLPT level (N5–N1)
+- On’yomi and Kun’yomi readings
+- Linked vocabulary for each kanji
+- Quiz-style learning approach
+- Fully offline dataset (no API required)
+
+Data is sourced from open datasets and transformed into a custom structure optimized for fast usage in the app.
+
+
 ## Data Sources
 
 This project uses external open-source datasets for Japanese kanji and vocabulary.
