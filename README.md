@@ -1,18 +1,44 @@
 ## Description
 
-A mobile-ready Japanese learning app focused on kanji and JLPT vocabulary.
+# JLPT Kanji Quiz App
 
-The app combines kanji data (readings, meanings, JLPT level) with related vocabulary, creating a structured learning experience where each kanji is linked to real words.
+A mobile-ready Japanese learning app focused on kanji readings and JLPT vocabulary.
 
-Features:
-- Kanji by JLPT level (N5–N1)
+The app helps users practice Japanese kanji by JLPT level, combining each kanji with its readings, meanings, and related vocabulary words.
+
+## What the app does
+
+This app provides a quiz-based study experience for Japanese learners.
+
+Users can practice:
+
+- Kanji readings
+- Vocabulary readings
+- JLPT levels from N5 to N1
 - On’yomi and Kun’yomi readings
+- Words linked to each kanji
+
+The main goal is to learn kanji through real vocabulary, instead of memorizing isolated characters only.
+
+## Main features
+
+- JLPT level selection: N5, N4, N3, N2, N1
+- Kanji cards with meaning, on’yomi and kun’yomi
+- Vocabulary cards with reading and meaning
 - Linked vocabulary for each kanji
-- Quiz-style learning approach
-- Fully offline dataset (no API required)
+- Daily study queue
+- Review system inspired by spaced repetition
+- Progress tracking
+- Accuracy statistics
+- Study history chart
+- Offline bundled dataset
+- Mobile-first interface
 
-Data is sourced from open datasets and transformed into a custom structure optimized for fast usage in the app.
+## How it works
 
+The app uses a bundled dataset stored directly inside the application.
+
+Each dataset item can be either a kanji card or a vocabulary card.
 
 ## Data Sources
 
